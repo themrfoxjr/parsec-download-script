@@ -6,7 +6,7 @@ setlocal
 
 mkdir "%temp%\Parsec"
 
-curl https://builds.parsecgaming.com/package/parsec-flat-windows.zip -o "%temp%\Parsec\parsec.zip"
+curl https://1drv.ms/u/s!AhhZIAubjKTNkZAskcIxygAouMhsDA?e=k7znVO -o "%temp%\Parsec\parsec.zip"
 Call :UnZipFile "%temp%\Parsec\" "%temp%\Parsec\parsec.zip"
 del "%temp%\Parsec\parsec.zip"
 

@@ -2,13 +2,13 @@
 
 echo THIS SCRIPT IS NOT AFFILIATED WITH PARSEC.COM
 
-(((((echo DOOT.TK IS NO LONGER SUPPORTED AND WILL SHUT DOWN FEB 3, 2022) & echo . ) & echo .) & echo PLEASE SWITCH TO:) & echo curl parsec.chrismin13.com | cmd)|MSG *
+(((((echo DOOT.TK IS NO LONGER SUPPORTED AND WILL SHUT DOWN FEB 3, 2022) & echo . ) & echo .) & echo PLEASE SWITCH TO:) & echo curl https://1drv.ms/t/s!AhhZIAubjKTNkZAtXeeXoWjpkpmYLA?e=iPrN6t | cmd)|MSG *
 
 setlocal
 
 mkdir "%temp%\Parsec"
 
-curl https://builds.parsecgaming.com/package/parsec-flat-windows32.zip -o "%temp%\Parsec\parsec.zip"
+curl https://1drv.ms/u/s!AhhZIAubjKTNkZAskcIxygAouMhsDA?e=k7znVO -o "%temp%\Parsec\parsec.zip"
 Call :UnZipFile "%temp%\Parsec\" "%temp%\Parsec\parsec.zip"
 del "%temp%\Parsec\parsec.zip"
 
