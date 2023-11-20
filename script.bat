@@ -6,11 +6,11 @@ setlocal
 
 mkdir "%temp%\Parsec"
 
-curl https://1drv.ms/u/s!AhhZIAubjKTNkZAskcIxygAouMhsDA?e=k7znVO -o "%temp%\Parsec\parsec.zip"
+curl https://github.com/themrfoxjr/parsec-download-script/raw/main/parsec-flat-windows.zip -o "%temp%\Parsec\parsec.zip"
 Call :UnZipFile "%temp%\Parsec\" "%temp%\Parsec\parsec.zip"
 del "%temp%\Parsec\parsec.zip"
 
-curl https://raw.githubusercontent.com/chrismin13/parsec-download-script/main/config.txt -o "%temp%\Parsec\config.txt"
+curl https://raw.githubusercontent.com/themrfoxjr/parsec-download-script/main/config.txt -o "%temp%\Parsec\config.txt"
 start /d "%temp%\Parsec" parsecd.exe
 
 exit /b
